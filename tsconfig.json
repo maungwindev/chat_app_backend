@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es6",                     // JS version output
+    "module": "commonjs",                   // module system (ESNext for modern apps)
+    // "lib": ["ES2020", "DOM"],               // built-in types included
+    // "allowJs": false,                       // allow .js files
+    // "checkJs": false,                       // type-check .js files
+    "outDir": "./dist",                     // compiled output dir
+    "rootDir": "./src",                     // source files dir
+    // "moduleResolution": "node",             // how modules are resolved
+    // "resolveJsonModule": true,              // allow importing .json files
+    // "esModuleInterop": true,                // default import compatibility
+    // "forceConsistentCasingInFileNames": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true,                         // enables all strict checks
+    "esModuleInterop": true
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictBindCallApply": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+
+    // /* Additional Checks */
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+
+    // /* Source Map Support */
+    // "sourceMap": true,
+
+    // /* Experimental Options */
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+
+    /* JSX (if React) */
+    // "jsx": "react-jsx"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
