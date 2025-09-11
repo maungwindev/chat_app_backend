@@ -1,9 +1,12 @@
 import express,{Request, Response} from "express";
 import {json } from "body-parser";
+import authRouter from "./routes/authRoutes";
+
 
 
 const app = express();
 app.use(json());
+app.use('/api/auth',authRouter);
 
 const PORT = process.env.PORT || 6000;
 
