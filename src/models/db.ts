@@ -1,15 +1,15 @@
 import { Pool } from 'pg';
 
 // const pool = new Pool({
-//     user:'postgres',
-//     password : '1234567890',
-//     host : '127.0.0.1',
+//     user:'chatdb_wnr3_user',
+//     password : 'Bg5WD2gayHUX9hBmb1UJvFk6R8VgqqXZ',
+//     host : 'dpg-d31qhqbuibrs73986jh0-a',
 //     port : 5432,
-//     database:"chat_app"
+//     database:"chatdb_wnr3"
 // });
 
 const pool = new Pool({
-    connectionString: "postgresql://postgres:SlOIfmCiVGYYyDxpbwuewcguQDHHhUat@tramway.proxy.rlwy.net:59617/railway",
+    connectionString: "postgresql://chatdb_wnr3_user:Bg5WD2gayHUX9hBmb1UJvFk6R8VgqqXZ@dpg-d31qhqbuibrs73986jh0-a.singapore-postgres.render.com/chatdb_wnr3",
 })
 
 export default pool; 
