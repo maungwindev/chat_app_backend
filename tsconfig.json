@@ -15,7 +15,8 @@
 
     /* Strict Type-Checking Options */
     "strict": true,                         // enables all strict checks
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["./src/types","./node_modules/@types"]
     // "noImplicitAny": true,
     // "strictNullChecks": true,
     // "strictFunctionTypes": true,
@@ -40,5 +41,5 @@
     // "jsx": "react-jsx"
   },
   "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
 }

@@ -1,11 +1,11 @@
 import { Pool } from 'pg';
 
 // const pool = new Pool({
-//     user:'chatdb_wnr3_user',
-//     password : 'Bg5WD2gayHUX9hBmb1UJvFk6R8VgqqXZ',
-//     host : 'dpg-d31qhqbuibrs73986jh0-a',
+//     user:'postgres',
+//     password : '1234567890',
+//     host : 'localhost',
 //     port : 5432,
-//     database:"chatdb_wnr3"
+//     database:"chat_app"
 // });
 
 const pool = new Pool({
